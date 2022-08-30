@@ -1,0 +1,32 @@
+.container {
+display: block;
+align-items: center;
+outline: 2px solid black;
+margin-top: 60px;
+margin-left: 170px;
+width: 32%;
+height: 130px;
+padding: 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+.toppart1 {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.button {
+   display: flex;
+   align-items: center;
+   margin-top: 10px;
+    width: 60px;
+    height: 30px;
+    background-color: rgb(241, 241, 127);
+    box-shadow: 3px 3px black;
+    cursor: pointer;
+
+}
+.p1 {
+    font-size: 25px;
+}
