@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="DojoWeather.css">
+    <script src="DojoWeather.js"></script>
+</head>
+<body>
+    <div class="nav1">
+        <h1>DojoWeather</h1>
+        <h2 class="city" onclick="message(this)">Burbank</h2>
+        <h2 class="city" onclick="message(this)">Chicago</h2>
+        <h2 class="city" onclick="message(this)">Dallas</h2>
+    </div>
+    <div class="nav2">
+        <h1>San Jose</h1>
+        <div class="nav2-elements">
+        <h4>Show temperature in</h4>
+        <select onchange="CelToFeh() ;CelToFeh7() ;CelToFeh1() ;CelToFeh2() ;CelToFeh3() ;CelToFeh4() ;CelToFeh5() ;CelToFeh6()" name="°C">
+            <option>°C</option>
+            <option>°F</option>
+        </select>
+        </div>
+    </div>
+        <div class="thefourboxes">
+            <div class="first">
+                <h2>Today</h2>
+                <img src="some_rain.png" alt="raining">
+                <h4>some rain</h4>
+                <div>
+                    <h3 style="color:red"><span id="number">24</span></h3>
+                    <h3 style="color: blue"><span id="number1">18</span></h3>
+                </div>
+
+            </div>
+            <div class="first">
+                <h2>Tomorrow</h2>
+                <img src="some_sun.png" alt="raining">
+                <h4>some sun</h4>
+                <div>
+                    <h3 style="color:red"><span id="number2">27</span></h3>
+                    <h3 style="color: blue"><span id="number3">19</span></h3>
+                </div>
+                
+            </div>
+            <div class="first">
+                <h2>Friday</h2>
+                <img src="some_clouds.png" alt="raining">
+                <h4>some clouds</h4>
+                <div>
+                    <h3 style="color:red"><span id="number4">21</span></h3>
+                    <h3 style="color: blue"><span id="number5">16</span></h3>
+                </div>
+                
+            </div>
+            <div class="first">
+                <h2>Saturday</h2>
+                <img src="some_sun.png" alt="raining">
+                <h4>some sun</h4>
+                <div>
+                    <h3 style="color:red"><span id="number6">26</span></h3>
+                    <h3 style="color: blue"><span id="number7">21</span></h3>
+                </div>
+                
+            </div>
+        </div>
+        <div class="lastbox">
+            <img class="lastpic" src="cookie.png">
+            <div class="insidecontents">
+                <h2>Stop! Cookie time</h2>
+                <p style="font-size:larger">We use cookies (sadly not the edible ones o persona Ize
+                    content and ads, to provide social media features and to
+                    analyse our traffc. <a href="#">Read more...</a></p>
+            </div>
+            <button class="button" onclick="hide(this)">I Accept</button>
+        </div>
+    
+
+</body>
+</html>
